@@ -28,7 +28,8 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - uses: nanasess/setup-chromedriver@v2
+    - name: setup-chromedriver
+      uses: nanasess/setup-chromedriver@v2.2.0
       with:
         # Optional: do not specify to match Chrome's version
         chromedriver-version: '116.0.5845.140'
