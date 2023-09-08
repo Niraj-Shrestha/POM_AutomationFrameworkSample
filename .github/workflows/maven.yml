@@ -27,16 +27,31 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+    - name: Install Google Chrome
+      run: |
+        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+        sudo apt-get update
+        sudo apt-get install google-chrome-stable
 
-    - name: setup-chromedriver
-      uses: nanasess/setup-chromedriver@v2.2.0
-      with:
+    - name: Install ChromeDriver
+      run: |
+        CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d '.' -f 1)
+        LATEST_CHROMEDRIVER_VERSION=$(wget -q -O - "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+        wget "https://chromedriver.storage.googleapis.com/$LATEST_CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
+        unzip chromedriver_linux64.zip
+        chmod +x chromedriver
+        sudo mv chromedriver /usr/local/bin/
+
+    #- name: setup-chromedriver
+    #  uses: nanasess/setup-chromedriver@v2.2.0
+    #  with:
         # Optional: do not specify to match Chrome's version
-        chromedriver-version: '116.0.5845.140'
-    - run: |
-        export DISPLAY=:99
-        chromedriver --url-base=/wd/hub &
-        sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
+    #    chromedriver-version: '116.0.5845.140'
+    #- run: |
+    #    export DISPLAY=:99
+    #   chromedriver --url-base=/wd/hub &
+    #    sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
     - name: Build with Maven
       run: mvn clean test
 
