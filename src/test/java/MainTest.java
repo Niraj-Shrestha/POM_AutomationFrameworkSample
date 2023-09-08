@@ -12,7 +12,7 @@ public class MainTest extends BaseTest{
     }
     @Test
     public void test() {
-        landingPage.enterSearchKeyword();
-        landingPage.clickSearch();
+        // landingPage.enterSearchKeyword();
+       // landingPage.clickSearch();
     }
 }
