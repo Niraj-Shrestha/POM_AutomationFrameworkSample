@@ -1,5 +1,6 @@
 package org.example.pages;
 
+import org.example.config.Wait;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class LandingPage extends BasePage{
+public class LandingPage extends BasePage implements Wait{
 
     public LandingPage(WebDriver driver) {
         super(driver);
@@ -21,8 +22,7 @@ public class LandingPage extends BasePage{
     protected WebElement SearchButton;
 
     public void enterSearchKeyword(){
-        WebDriverWait driverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        driverWait.until(ExpectedConditions.visibilityOf(SearchBar));
+        waitUntilElementIsVisible(driver,SearchBar);
         SearchBar.click();
         System.out.println("searchbar clicked");
         SearchBar.sendKeys("tester");
@@ -30,8 +30,7 @@ public class LandingPage extends BasePage{
     }
 
     public void clickSearch(){
-        WebDriverWait driverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        driverWait.until(ExpectedConditions.visibilityOf(SearchButton));
+        waitUntilElementIsVisible(driver,SearchButton);
         SearchButton.click();
         System.out.println("searchbutton clicked");
     }
