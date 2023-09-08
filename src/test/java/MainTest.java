@@ -12,7 +12,6 @@ public class MainTest extends BaseTest{
     }
     @Test
     public void test() throws InterruptedException {
-        Thread.sleep(10);
         landingPage.enterSearchKeyword();
         landingPage.clickSearch();
     }
