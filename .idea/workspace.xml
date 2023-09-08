@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="updated gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="updated maven.yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,6 +48,55 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="updated gitignore">
+      <option name="closed" value="true" />
+      <created>1694145962095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694145962095</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated gitignore">
+      <option name="closed" value="true" />
+      <created>1694146414017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694146414017</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated pom and testng">
+      <option name="closed" value="true" />
+      <created>1694148185100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694148185100</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated pom and testng">
+      <option name="closed" value="true" />
+      <created>1694148235953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694148235953</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated maven.yml">
+      <option name="closed" value="true" />
+      <created>1694148583134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694148583134</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated maven.yml">
+      <option name="closed" value="true" />
+      <created>1694149044177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694149044177</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -61,6 +109,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated gitignore" />
+    <MESSAGE value="updated pom and testng" />
+    <MESSAGE value="updated maven.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated maven.yml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
