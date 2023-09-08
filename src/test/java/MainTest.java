@@ -15,6 +15,6 @@ public class MainTest extends BaseTest{
         landingPage.enterSearchKeyword();
         landingPage.clickSearch();
         Thread.sleep(10000);
-        System.out.println("test pass");
+        System.out.println("test pass2");
     }
 }
