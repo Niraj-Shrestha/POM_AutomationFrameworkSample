@@ -11,7 +11,7 @@ public class MainTest extends BaseTest{
         landingPage = PageFactory.initElements(driver, LandingPage.class);
     }
     @Test
-    public void test() throws InterruptedException {
+    public void test() {
         landingPage.enterSearchKeyword();
         landingPage.clickSearch();
     }

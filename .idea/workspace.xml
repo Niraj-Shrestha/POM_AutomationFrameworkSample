@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="changed driver to firefox for headless mode">
+    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="removed chrome driver from maven.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694154271364</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="changed driver to firefox for headless mode">
+      <option name="closed" value="true" />
+      <created>1694154288168</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694154288168</updated>
+    </task>
+    <task id="LOCAL-00015" summary="removed chrome driver from maven.yml">
+      <option name="closed" value="true" />
+      <created>1694154406815</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694154406815</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +187,8 @@
     <MESSAGE value="Udpati" />
     <MESSAGE value="Updating headless mode" />
     <MESSAGE value="changed driver to firefox for headless mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed driver to firefox for headless mode" />
+    <MESSAGE value="removed chrome driver from maven.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed chrome driver from maven.yml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
