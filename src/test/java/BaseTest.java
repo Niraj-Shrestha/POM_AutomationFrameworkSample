@@ -1,3 +1,4 @@
+import org.example.config.ConfigFile;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -7,18 +8,19 @@ import org.testng.annotations.BeforeTest;
 public class BaseTest {
 
     WebDriver driver;
+
+    @BeforeTest
+    public void initializeConfig(){
+        ConfigFile.INSTANCE.init();
+    }
+
     @BeforeTest
     public void initializeDriver(){
         FirefoxOptions options = new FirefoxOptions();
-        options.setHeadless(true);
+        options.addArguments("--headless");
         driver = new FirefoxDriver(options);
-        driver.get("https://www.indeed.com/");
+        driver.get(ConfigFile.BaseURL);
     }
-
-    /*@BeforeTest
-    public void initializeConfig(){
-        ConfigFile.INSTANCE.init();
-    }*/
 
     @AfterTest
     public void tearDown(){

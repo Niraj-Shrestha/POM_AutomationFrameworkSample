@@ -15,10 +15,10 @@ public class LandingPage extends BasePage{
     }
 
     @FindBy(id = "text-input-what")
-    private WebElement SearchBar;
+    protected WebElement SearchBar;
 
     @FindBy(xpath = "//button[text()='Search']")
-    private WebElement SearchButton;
+    protected WebElement SearchButton;
 
     public void enterSearchKeyword(){
         WebDriverWait driverWait = new WebDriverWait(driver, Duration.ofSeconds(5));

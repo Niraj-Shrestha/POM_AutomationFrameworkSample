@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="removed chrome driver from maven.yml">
+    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="updated unused codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694154406815</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated unused codes">
+      <option name="closed" value="true" />
+      <created>1694154468030</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1694154468030</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +195,8 @@
     <MESSAGE value="Updating headless mode" />
     <MESSAGE value="changed driver to firefox for headless mode" />
     <MESSAGE value="removed chrome driver from maven.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed chrome driver from maven.yml" />
+    <MESSAGE value="updated unused codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated unused codes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
