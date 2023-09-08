@@ -9,7 +9,7 @@ public enum ConfigFile {
 
     INSTANCE;
     public static String BaseURL;
-
+    public static String Browser;
 
     public void init(){
         Properties prop = new Properties();
@@ -20,6 +20,7 @@ public enum ConfigFile {
             System.out.println(e);
         }
         BaseURL = prop.getProperty("devEnvironment");
+        Browser = prop.getProperty("browser");
     }
 
     private URL configFile(){
