@@ -10,13 +10,13 @@ public class BaseTest {
     @BeforeTest
     public void initializeDriver(){
         driver = new ChromeDriver();
-        driver.get(ConfigFile.BaseURL);
+        driver.get("https://www.indeed.com/");
     }
 
-    @BeforeTest
+    /*@BeforeTest
     public void initializeConfig(){
         ConfigFile.INSTANCE.init();
-    }
+    }*/
 
     @AfterTest
     public void tearDown(){
