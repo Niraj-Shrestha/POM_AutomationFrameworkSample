@@ -4,28 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="updated maven.yml" />
+    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="Updating for github actions">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MainTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPOM" />
@@ -48,55 +46,63 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="updated gitignore">
+    <task id="LOCAL-00001" summary="Updating for github actions">
       <option name="closed" value="true" />
-      <created>1694145962095</created>
+      <created>1694149569824</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1694145962095</updated>
+      <updated>1694149569824</updated>
     </task>
-    <task id="LOCAL-00002" summary="updated gitignore">
+    <task id="LOCAL-00002" summary="Updating for github actions">
       <option name="closed" value="true" />
-      <created>1694146414017</created>
+      <created>1694149872882</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1694146414017</updated>
+      <updated>1694149872882</updated>
     </task>
-    <task id="LOCAL-00003" summary="updated pom and testng">
+    <task id="LOCAL-00003" summary="Updating for github actions">
       <option name="closed" value="true" />
-      <created>1694148185100</created>
+      <created>1694150083187</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1694148185100</updated>
+      <updated>1694150083187</updated>
     </task>
-    <task id="LOCAL-00004" summary="updated pom and testng">
+    <task id="LOCAL-00004" summary="Updating for github actions">
       <option name="closed" value="true" />
-      <created>1694148235953</created>
+      <created>1694150174545</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1694148235953</updated>
+      <updated>1694150174545</updated>
     </task>
-    <task id="LOCAL-00005" summary="updated maven.yml">
+    <task id="LOCAL-00005" summary="Updating for github actions">
       <option name="closed" value="true" />
-      <created>1694148583134</created>
+      <created>1694150424473</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1694148583134</updated>
+      <updated>1694150424473</updated>
     </task>
-    <task id="LOCAL-00006" summary="updated maven.yml">
+    <task id="LOCAL-00006" summary="Updating for github actions">
       <option name="closed" value="true" />
-      <created>1694149044177</created>
+      <created>1694150727580</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1694149044177</updated>
+      <updated>1694150727580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updating for github actions">
+      <option name="closed" value="true" />
+      <created>1694150910328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694150910328</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,10 +117,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated gitignore" />
-    <MESSAGE value="updated pom and testng" />
-    <MESSAGE value="updated maven.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated maven.yml" />
+    <MESSAGE value="Updating for github actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating for github actions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
