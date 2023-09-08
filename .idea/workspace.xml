@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="Udpati">
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="Updating headless mode">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694151344883</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updating headless mode">
+      <option name="closed" value="true" />
+      <created>1694151566597</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694151566597</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updating headless mode">
+      <option name="closed" value="true" />
+      <created>1694151755343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694151755343</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +151,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating for github actions" />
     <MESSAGE value="Udpati" />
-    <option name="LAST_COMMIT_MESSAGE" value="Udpati" />
+    <MESSAGE value="Updating headless mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating headless mode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
