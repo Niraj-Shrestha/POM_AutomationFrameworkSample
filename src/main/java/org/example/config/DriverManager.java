@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 public enum DriverManager {
 
     INSTANCE;
-    public WebDriver init(){
+    public WebDriver initDefault(){
         switch (ConfigFile.Browser){
             case "chrome":
                 return new ChromeDriver();

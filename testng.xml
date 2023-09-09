@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Sample">
-    <test name="Test Basics 1">
+<suite name="Smoke Test Suite">
+    <test name="Run Test in Default Browser">
         <classes>
             <class name="MainTest"/>
         </classes>
     </test>
-    <test name="Test Basics 2">
-        <parameter name="browser" value="firefox" />
+    <test name="Run Test in CrossBrowser">
+        <parameter name="browsers" value="firefox" />
+        <!--Pass the comma separated values for browser. eg. values="firefox,chrome"-->
         <classes>
             <class name="MainTest"/>
         </classes>
