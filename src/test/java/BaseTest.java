@@ -18,13 +18,16 @@ public class BaseTest {
         ConfigFile.INSTANCE.init();
     }
 
-    @Parameters({"browser"})
+    @Parameters({"browsers"})
     @BeforeTest
-    public void initializeDriver(@Optional String browser){
-        if(browser == null){
-            driver = DriverManager.INSTANCE.init();
+    public void initializeDriver(@Optional String browserList){
+        if(browserList == null){
+            driver = DriverManager.INSTANCE.initDefault();
         }else {
-            driver = DriverManager.INSTANCE.initCrossBrowser(browser);
+            String[] browsers = browserList.split(",");
+            for (String browser : browsers) {
+                driver = DriverManager.INSTANCE.initCrossBrowser(browser);
+            }
         }
         driver.get(ConfigFile.BaseURL);
     }

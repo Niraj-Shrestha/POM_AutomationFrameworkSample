@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="added wait">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/SetupException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    <list default="true" id="cedec971-3e30-47ae-8c13-3f90de31b078" name="Changes" comment="updated driver manger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/ConfigFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694156937118</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="updated driver manger">
+      <option name="closed" value="true" />
+      <created>1694213610970</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694213610970</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,18 +254,8 @@
     <MESSAGE value="updated unused codes" />
     <MESSAGE value="re added config file" />
     <MESSAGE value="added wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="added wait" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BaseTest.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="updated driver manger" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated driver manger" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
