@@ -1,21 +1,26 @@
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.example.config.ConfigFile;
 import org.example.config.DriverManager;
-import org.example.exceptions.SetupException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 public class BaseTest {
 
+    public static ExtentReports extent;
+    public static ExtentTest test;
     WebDriver driver;
     @BeforeTest
     public void initializeConfig(){
         ConfigFile.INSTANCE.init();
+    }
+
+    @BeforeSuite
+    public void initializeReport(){
+        ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");
+        extent = new ExtentReports();
+        extent.attachReporter(spark);
     }
 
     @Parameters({"browsers"})
@@ -33,7 +38,11 @@ public class BaseTest {
     }
 
     @AfterTest
-    public void tearDown(){
+    public void tearDownDriver(){
         driver.quit();
+    }
+    @AfterTest
+    public void tearDownReport(){
+        extent.flush();
     }
 }
